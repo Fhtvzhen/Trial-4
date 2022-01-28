@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+
+
+body {
+    line-height: 1.7;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvertica Neue", "游ゴシック Medium", YuGothic, YuGothicM, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    color: #000;
+    background-image:"main-bg.jpeg";
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 300px
+}
+
+header
+      {
+    display: block;
+    margin: 0 auto;
+    width: 300px
+}
+
+header h1 {
+    margin: 20px 0 0 20px;
+}
+header nav {
+    margin: 0 0 0 auto;
+}
+header nav ul {
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 0;
+    display: flex;
+    color: darkred;  
+}
+header nav ul li a,
+header nav ul li a:link,
+header nav ul li a:visited {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: darkred;
+}
+header nav ul li a:hover {
+    color: #888;
+}
+
+h2 {
+    margin: 0 auto 0 20px;
+    font-size: 4vmax;
+    font-family: serif;
+    color:darkred;
+}
+
+p {
+    font-size: 1em;
+    color:darkred
+}
+
+button {
+    display: block;
+    margin: 0 auto 0;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background: deepskyblue;
+    color: white;
+}    
+
+a {
+    text-decoration: none;
+}
+
+
+@media only screen and (min-width: 961px) {
+
+body {
+    background-image: url("main-bg.jpeg");
+    background-size: cover;　　    
+}
+
+.logo {
+    margin: 0 auto 0 50px;
+}
+    
+header {
+    width:100%;
+    padding:0.2%
+    display: flex;
+}
+    
+ul{
+    display:flex;
+    list-style:none;
+}
+    
+li{ 
+    margin-left:40px;
+}
+
+a{
+    text-decoration: none;
+    color:#333;
+}
+
+header{
+    width: 100%;
+    padding: 0.2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}        
+    
+header nav ul li a,
+header nav ul li a:link,
+header nav ul li a:visited {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: darkred;
+}
+header nav ul li a:hover {
+    color: #888;
+}
+
+h2 {
+    margin: 0 auto 0 20px;
+    font-size: 5em;
+    font-family: serif;
+    color:darkred;
+}
+
+p {
+    font-size: 1em;
+    color:darkred
+}
+
+button {
+    display: block;
+    margin: 0 auto 0;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background: deepskyblue;
+    color: white;
+}    
+
+a {
+    text-decoration: none;
+}
+}
